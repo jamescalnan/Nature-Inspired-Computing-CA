@@ -39,9 +39,9 @@ git clone https://github.com/jamescalnan/Nature-Inspired-Computing-CA
 Results of the experiments, including tables and graphs, are included in the results directory. The best parameter combination and answers to the questions are provided in the analysis.pdf file.
 
 ## Questions and Answers
-Q1: Best parameter combination.
-Q2: Reasons for the findings.
-Q3: Influence of each parameter setting.
-Q4: Additional local heuristic function.
-Q5: Variations to improve results.
-Q6: Comparison with other nature-inspired algorithms.
+- Q1: Best parameter combination.
+- Q2: Reasons for the findings.
+- Q3: Influence of each parameter setting.
+- Q4: Additional local heuristic function.
+- Q5: Variations to improve results.
+- Q6: Comparison with other nature-inspired algorithms.
