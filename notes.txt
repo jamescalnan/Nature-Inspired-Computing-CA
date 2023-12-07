@@ -24,3 +24,8 @@ When trying an MMAS implemetation with these changes:
         self.update_pheromones(best_solution, best_cost)  # Update pheromones
 
 The solutions generated are worse (they have a higher path cost than without these changes)
+
+
+
+
+Tried tabu search but it 10x increased exeuction time for not much gain in terms of cost
