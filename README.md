@@ -2,7 +2,7 @@
 
 ## ECM3412 - Coursework Exercise
 
-This project contains the implementation of the Ant Colony Optimization (ACO) algorithm to solve the Traveling Salesman Problem (TSP) with datasets representing city distances in Brazil and Burma.
+This project is an implementation of the Ant Colony Optimization (ACO) algorithm to solve the Traveling Salesman Problem (TSP) with datasets representing city distances in Brazil and Burma. The goal is to optimize travel routes for a company operating in multiple cities by minimizing the total cost of traveling between all cities, represented by a distance matrix.
 
 ### Lecturers
 - Dr. Ayah Helal (a.helal@exeter.ac.uk)
@@ -12,36 +12,33 @@ This project contains the implementation of the Ant Colony Optimization (ACO) al
 13th December 2023, 12:00 (noon)
 
 ### Description
-The task is to optimize travel routes for a company operating in multiple cities. The ACO algorithm is implemented to minimize the total cost of traveling between all cities, represented by a distance matrix.
-
-### Algorithm Parameters
-The algorithm's parameters include the number of ants, pheromone evaporation rate, pheromone importance factor (alpha), heuristic importance factor (beta), and the number of iterations.
+The task involves implementing the ACO algorithm with various parameters, such as the number of ants, pheromone evaporation rate, pheromone importance factor (alpha), heuristic importance factor (beta), and the number of iterations. The goal is to explore different parameter settings and approaches to find the most efficient travel routes.
 
 ### Experiments
-Experiments were conducted by varying one parameter at a time while keeping others constant to observe the impact on the algorithm’s performance. The parameters explored include variations in ACO approach, evaporation rate, colony size, and heuristic functions.
+Experiments include ACO approach variations, evaporation rate, colony size, and heuristic functions.
 
 ## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
-- NetworkX library
-- Matplotlib library (for plotting)
-- Multiprocessing library (for parallel execution)
-- tqdm library (for progress bars)
+- Libraries: NetworkX, Matplotlib, Multiprocessing, tqdm
 
-### Installation
-Clone the repository to your local machine:
+### Installation and Running
+Run the Jupyter Notebook `ACO Notebook.ipynb` to execute the code:
 ```bash
-git clone https://github.com/jamescalnan/Nature-Inspired-Computing-CA
+jupyter notebook ACO Notebook.ipynb
 ```
 
-## Results
-Results of the experiments, including tables and graphs, are included in the results directory. The best parameter combination and answers to the questions are provided in the analysis.pdf file.
+### File Structure
+- `datasets/`: XML files with city data for Brazil and Burma.
+- `images/`: Generated graphs and paths from ACO solutions and metrics.
+- `results/`: Results of experiments in JSON format.
+- `ACO Notebook.ipynb`: Main Jupyter Notebook with implementation and experiments.
+- `README.md`: This file.
+- `Other results/`: Other good results.
+
+## Results and Analysis
+Results of the minimum cost solution are in the `results/` directory. Analysis of the experiments is provided in `Nature_Inspired_Computing_Report.pdf`, addressing questions related to parameter combinations, reasons behind findings, and comparative analysis with other algorithms.
 
 ## Questions and Answers
-- Q1: Best parameter combination.
-- Q2: Reasons for the findings.
-- Q3: Influence of each parameter setting.
-- Q4: Additional local heuristic function.
-- Q5: Variations to improve results.
-- Q6: Comparison with other nature-inspired algorithms.
+Refer to `Nature_Inspired_Computing_Report.pdf` for detailed answers to the coursework questions, including best parameter combinations, reasons behind findings, and comparative analysis with other nature-inspired algorithms.
