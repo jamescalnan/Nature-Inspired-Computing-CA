@@ -1,5 +1,7 @@
 # Ant Colony Optimization for the Traveling Salesman Problem
 
+## Grade: 96/100
+
 ## ECM3412 - Coursework Exercise
 
 This project is an implementation of the Ant Colony Optimization (ACO) algorithm to solve the Traveling Salesman Problem (TSP) with datasets representing city distances in Brazil and Burma. The goal is to optimize travel routes for a company operating in multiple cities by minimizing the total cost of traveling between all cities, represented by a distance matrix.
